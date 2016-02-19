@@ -24,7 +24,7 @@
   </properties>
 
   <name>WildFly Hello World</name>
-  <description>WildFly Swarm Hello World</description>
+  <description>WildFly Swarm Hello World App</description>
 
   <packaging>war</packaging>
 
