@@ -23,7 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <name>WildFly Test</name>
+  <name>WildFly Hello World</name>
   <description>WildFly Swarm Test</description>
 
   <packaging>war</packaging>
