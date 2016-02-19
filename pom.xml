@@ -13,7 +13,7 @@
   <version>1.0-SNAPSHOT</version>
 
 <properties>
-    <version.wildfly-swarm>1.0.0.Alpha4</version.wildfly-swarm>
+    <version.wildfly-swarm>1.0.0.Alpha8</version.wildfly-swarm>
 
     <maven.min.version>3.2.1</maven.min.version>
 
@@ -41,6 +41,7 @@
       <plugin>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>wildfly-swarm-plugin</artifactId>
+      <version>${version.wildfly-swarm}</version>
 <executions>
       <execution>
         <goals>
@@ -55,7 +56,7 @@
   <dependencies>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jaxrs-weld</artifactId>
+      <artifactId>jaxrs-weld</artifactId>
       <version>${version.wildfly-swarm}</version>
     </dependency>
   </dependencies>
